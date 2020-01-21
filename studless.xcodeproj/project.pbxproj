@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B214BE3A1BC833BD0059BDBA /* ModelRenderToImage.h in Sources */ = {isa = PBXBuildFile; fileRef = B214BE361BC833BD0059BDBA /* ModelRenderToImage.h */; };
+		B214BE3D1BC996290059BDBA /* PartReportViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B214BE3C1BC996290059BDBA /* PartReportViewController.mm */; };
+		B21EE74E1CCDD1D200E122D8 /* multifile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21EE74C1CCDD1D200E122D8 /* multifile.cpp */; };
+		B22CEA031BDD3282005C7526 /* ioapi.h in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA001BDD3282005C7526 /* ioapi.h */; };
+		B22CEA041BDD3282005C7526 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA021BDD3282005C7526 /* unzip.c */; };
+		B22CEA141BDD4D3B005C7526 /* LdrawXmlParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */; };
+		B22CEA161BDD4E02005C7526 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B22CEA151BDD4E02005C7526 /* libz.tbd */; };
+		B22CEA1A1BDE9DAE005C7526 /* Triangular Arrow Down-30.png in Resources */ = {isa = PBXBuildFile; fileRef = B22CEA181BDE9DAE005C7526 /* Triangular Arrow Down-30.png */; };
+		B22CEA1B1BDE9DAE005C7526 /* Triangular Arrow Right-30.png in Resources */ = {isa = PBXBuildFile; fileRef = B22CEA191BDE9DAE005C7526 /* Triangular Arrow Right-30.png */; };
+		B231940023D76E0F001B987F /* LegoModelPartsReport.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23193FF23D76E0F001B987F /* LegoModelPartsReport.mm */; };
+		B231940223D76F9D001B987F /* ModelRenderToImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = B214BE381BC833BD0059BDBA /* ModelRenderToImage.mm */; };
+		B231940323D76FA1001B987F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B22CE9FF1BDD3282005C7526 /* ioapi.c */; };
+		B238EDC21BBAB3B200850735 /* Pan_Rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = B238EDC11BBAB3B200850735 /* Pan_Rotate.png */; };
+		B248D8881BDFBACD00571BC7 /* ldraw.xml in Resources */ = {isa = PBXBuildFile; fileRef = B248D8871BDFBACD00571BC7 /* ldraw.xml */; };
+		B248D88A1BE3A86000571BC7 /* Report Card.png in Resources */ = {isa = PBXBuildFile; fileRef = B248D8891BE3A86000571BC7 /* Report Card.png */; };
+		B27E1B091B9E2189007C0DD9 /* Simple Truck.ldr in Resources */ = {isa = PBXBuildFile; fileRef = B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */; };
+		B2996DFD1BB69531001C6D0C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2996DFC1BB69531001C6D0C /* GLKit.framework */; };
+		B2996E091BB7A92B001C6D0C /* legomesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2996E061BB7A92B001C6D0C /* legomesh.cpp */; };
+		B2EA599C1B8E20A400C371DB /* Go_fwd.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EA599A1B8E20A400C371DB /* Go_fwd.png */; };
+		B2EA599D1B8E20A400C371DB /* Go_back.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EA599B1B8E20A400C371DB /* Go_back.png */; };
+		B2EC7E231B8BC7450067F525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E221B8BC7450067F525 /* main.m */; };
+		B2EC7E261B8BC7450067F525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E251B8BC7450067F525 /* AppDelegate.m */; };
+		B2EC7E2D1B8BC7450067F525 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */; };
+		B2EC7E301B8BC7450067F525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7E2E1B8BC7450067F525 /* Main.storyboard */; };
+		B2EC7E321B8BC7450067F525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7E311B8BC7450067F525 /* Images.xcassets */; };
+		B2EC7E351B8BC7450067F525 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */; };
+		B2EC7E411B8BC7450067F525 /* studlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E401B8BC7450067F525 /* studlessTests.m */; };
+		B2EC7EC21B8BCAE50067F525 /* ldraw_parts.c in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */; };
+		B2EC7ECA1B8BCB5C0067F525 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC51B8BCB5C0067F525 /* Folder.png */; };
+		B2EC7ECB1B8BCB5C0067F525 /* Original Size.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC61B8BCB5C0067F525 /* Original Size.png */; };
+		B2EC7ECC1B8BCB5C0067F525 /* Pan.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC71B8BCB5C0067F525 /* Pan.png */; };
+		B2EC7ECD1B8BCB5C0067F525 /* Rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC81B8BCB5C0067F525 /* Rotate.png */; };
+		B2EC7ECE1B8BCB5C0067F525 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC91B8BCB5C0067F525 /* Settings.png */; };
+		B2EC7ED01B8C218A0067F525 /* LDConfig.ldr in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7ECF1B8C218A0067F525 /* LDConfig.ldr */; };
+		B2EC7ED21B8C24D00067F525 /* library.bin in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7ED11B8C24D00067F525 /* library.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EC7E3B1B8BC7450067F525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EC7E151B8BC7450067F525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EC7E1C1B8BC7450067F525;
+			remoteInfo = studless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2047661236F754A0077F3ED /* studless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = studless.entitlements; sourceTree = "<group>"; };
+		B214BE361BC833BD0059BDBA /* ModelRenderToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelRenderToImage.h; path = ../studless/common/ModelRenderToImage.h; sourceTree = "<group>"; };
+		B214BE371BC833BD0059BDBA /* LegoModelPartsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LegoModelPartsReport.h; path = ../studless/common/LegoModelPartsReport.h; sourceTree = "<group>"; };
+		B214BE381BC833BD0059BDBA /* ModelRenderToImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ModelRenderToImage.mm; path = ../studless/common/ModelRenderToImage.mm; sourceTree = "<group>"; };
+		B214BE3B1BC996290059BDBA /* PartReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartReportViewController.h; sourceTree = "<group>"; };
+		B214BE3C1BC996290059BDBA /* PartReportViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PartReportViewController.mm; sourceTree = "<group>"; };
+		B21EE74C1CCDD1D200E122D8 /* multifile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = multifile.cpp; path = ../studless/common/multifile.cpp; sourceTree = "<group>"; };
+		B21EE74D1CCDD1D200E122D8 /* multifile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multifile.h; path = ../studless/common/multifile.h; sourceTree = "<group>"; };
+		B22CE9FF1BDD3282005C7526 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = ../studless/common/minizip/ioapi.c; sourceTree = "<group>"; };
+		B22CEA001BDD3282005C7526 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = ../studless/common/minizip/ioapi.h; sourceTree = "<group>"; };
+		B22CEA011BDD3282005C7526 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../studless/common/minizip/unzip.h; sourceTree = "<group>"; };
+		B22CEA021BDD3282005C7526 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = ../studless/common/minizip/unzip.c; sourceTree = "<group>"; };
+		B22CEA121BDD4D3B005C7526 /* LdrawXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdrawXmlParser.h; sourceTree = "<group>"; };
+		B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LdrawXmlParser.mm; sourceTree = "<group>"; };
+		B22CEA151BDD4E02005C7526 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B22CEA181BDE9DAE005C7526 /* Triangular Arrow Down-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Triangular Arrow Down-30.png"; path = "Icons/Triangular Arrow Down-30.png"; sourceTree = "<group>"; };
+		B22CEA191BDE9DAE005C7526 /* Triangular Arrow Right-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Triangular Arrow Right-30.png"; path = "Icons/Triangular Arrow Right-30.png"; sourceTree = "<group>"; };
+		B23193FF23D76E0F001B987F /* LegoModelPartsReport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LegoModelPartsReport.mm; path = common/LegoModelPartsReport.mm; sourceTree = SOURCE_ROOT; };
+		B231940123D76EF5001B987F /* app_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = app_bridge.h; sourceTree = "<group>"; };
+		B238EDC11BBAB3B200850735 /* Pan_Rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pan_Rotate.png; path = Icons/Pan_Rotate.png; sourceTree = "<group>"; };
+		B248D8871BDFBACD00571BC7 /* ldraw.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ldraw.xml; path = ../ldraw.xml; sourceTree = "<group>"; };
+		B248D8891BE3A86000571BC7 /* Report Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Report Card.png"; path = "Icons/Report Card.png"; sourceTree = "<group>"; };
+		B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Simple Truck.ldr"; path = "../../Simple Truck.ldr"; sourceTree = "<group>"; };
+		B2996DFC1BB69531001C6D0C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B2996E061BB7A92B001C6D0C /* legomesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = legomesh.cpp; path = ../studless/common/legomesh.cpp; sourceTree = "<group>"; };
+		B2996E071BB7A92B001C6D0C /* legomesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = legomesh.h; path = ../studless/common/legomesh.h; sourceTree = "<group>"; };
+		B2996E0A1BB7AB51001C6D0C /* vec_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec_math.h; sourceTree = "<group>"; };
+		B2996E0B1BB7AF07001C6D0C /* ldrawcolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ldrawcolor.h; path = ../studless/common/ldrawcolor.h; sourceTree = "<group>"; };
+		B2EA599A1B8E20A400C371DB /* Go_fwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Go_fwd.png; path = Icons/Go_fwd.png; sourceTree = "<group>"; };
+		B2EA599B1B8E20A400C371DB /* Go_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Go_back.png; path = Icons/Go_back.png; sourceTree = "<group>"; };
+		B2EC7E1D1B8BC7450067F525 /* studless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EC7E211B8BC7450067F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EC7E221B8BC7450067F525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EC7E241B8BC7450067F525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2EC7E251B8BC7450067F525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2EC7E2B1B8BC7450067F525 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		B2EC7E2F1B8BC7450067F525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2EC7E311B8BC7450067F525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2EC7E341B8BC7450067F525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2EC7E3A1B8BC7450067F525 /* studlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EC7E3F1B8BC7450067F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EC7E401B8BC7450067F525 /* studlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studlessTests.m; sourceTree = "<group>"; };
+		B2EC7EBC1B8BCA160067F525 /* GlErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlErrors.h; sourceTree = "<group>"; };
+		B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldraw_parts.c; path = ../studless/studless/ldraw_parts.c; sourceTree = "<group>"; };
+		B2EC7EC51B8BCB5C0067F525 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Folder.png; path = Icons/Folder.png; sourceTree = "<group>"; };
+		B2EC7EC61B8BCB5C0067F525 /* Original Size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Original Size.png"; path = "Icons/Original Size.png"; sourceTree = "<group>"; };
+		B2EC7EC71B8BCB5C0067F525 /* Pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pan.png; path = Icons/Pan.png; sourceTree = "<group>"; };
+		B2EC7EC81B8BCB5C0067F525 /* Rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rotate.png; path = Icons/Rotate.png; sourceTree = "<group>"; };
+		B2EC7EC91B8BCB5C0067F525 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Icons/Settings.png; sourceTree = "<group>"; };
+		B2EC7ECF1B8C218A0067F525 /* LDConfig.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LDConfig.ldr; path = ../../ldraw/LDConfig.ldr; sourceTree = "<group>"; };
+		B2EC7ED11B8C24D00067F525 /* library.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = library.bin; path = ../library.bin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EC7E1A1B8BC7450067F525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22CEA161BDD4E02005C7526 /* libz.tbd in Frameworks */,
+				B2996DFD1BB69531001C6D0C /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EC7E371B8BC7450067F525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22CEA111BDD4D12005C7526 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				B22CE9FF1BDD3282005C7526 /* ioapi.c */,
+				B22CEA001BDD3282005C7526 /* ioapi.h */,
+				B22CEA011BDD3282005C7526 /* unzip.h */,
+				B22CEA021BDD3282005C7526 /* unzip.c */,
+			);
+			name = minizip;
+			sourceTree = "<group>";
+		};
+		B2996E031BB7A92B001C6D0C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				B22CEA111BDD4D12005C7526 /* minizip */,
+				B214BE371BC833BD0059BDBA /* LegoModelPartsReport.h */,
+				B23193FF23D76E0F001B987F /* LegoModelPartsReport.mm */,
+				B214BE361BC833BD0059BDBA /* ModelRenderToImage.h */,
+				B214BE381BC833BD0059BDBA /* ModelRenderToImage.mm */,
+				B2996E061BB7A92B001C6D0C /* legomesh.cpp */,
+				B2996E071BB7A92B001C6D0C /* legomesh.h */,
+				B21EE74C1CCDD1D200E122D8 /* multifile.cpp */,
+				B21EE74D1CCDD1D200E122D8 /* multifile.h */,
+				B2996E0A1BB7AB51001C6D0C /* vec_math.h */,
+				B2EC7E2B1B8BC7450067F525 /* MainViewController.h */,
+				B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */,
+				B22CEA121BDD4D3B005C7526 /* LdrawXmlParser.h */,
+				B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+		B2996E0C1BB80FA7001C6D0C /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */,
+				B2996E0B1BB7AF07001C6D0C /* ldrawcolor.h */,
+			);
+			name = generated;
+			path = ../../common;
+			sourceTree = "<group>";
+		};
+		B2EC7E141B8BC7450067F525 = {
+			isa = PBXGroup;
+			children = (
+				B22CEA151BDD4E02005C7526 /* libz.tbd */,
+				B2996DFC1BB69531001C6D0C /* GLKit.framework */,
+				B2996E031BB7A92B001C6D0C /* common */,
+				B2EC7E1F1B8BC7450067F525 /* studless */,
+				B2EC7E1E1B8BC7450067F525 /* Products */,
+				B2EC7E3D1B8BC7450067F525 /* studlessTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EC7E1E1B8BC7450067F525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EC7E1D1B8BC7450067F525 /* studless.app */,
+				B2EC7E3A1B8BC7450067F525 /* studlessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EC7E1F1B8BC7450067F525 /* studless */ = {
+			isa = PBXGroup;
+			children = (
+				B2047661236F754A0077F3ED /* studless.entitlements */,
+				B2996E0C1BB80FA7001C6D0C /* generated */,
+				B2EC7E241B8BC7450067F525 /* AppDelegate.h */,
+				B2EC7E251B8BC7450067F525 /* AppDelegate.m */,
+				B231940123D76EF5001B987F /* app_bridge.h */,
+				B2EC7EBC1B8BCA160067F525 /* GlErrors.h */,
+				B214BE3B1BC996290059BDBA /* PartReportViewController.h */,
+				B214BE3C1BC996290059BDBA /* PartReportViewController.mm */,
+				B2EC7E2E1B8BC7450067F525 /* Main.storyboard */,
+				B2EC7E311B8BC7450067F525 /* Images.xcassets */,
+				B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */,
+				B2EC7E201B8BC7450067F525 /* Supporting Files */,
+			);
+			path = studless;
+			sourceTree = "<group>";
+		};
+		B2EC7E201B8BC7450067F525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B248D8871BDFBACD00571BC7 /* ldraw.xml */,
+				B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */,
+				B2EC7ED11B8C24D00067F525 /* library.bin */,
+				B2EC7ECF1B8C218A0067F525 /* LDConfig.ldr */,
+				B248D8891BE3A86000571BC7 /* Report Card.png */,
+				B22CEA181BDE9DAE005C7526 /* Triangular Arrow Down-30.png */,
+				B22CEA191BDE9DAE005C7526 /* Triangular Arrow Right-30.png */,
+				B2EC7EC51B8BCB5C0067F525 /* Folder.png */,
+				B2EC7EC61B8BCB5C0067F525 /* Original Size.png */,
+				B2EC7EC71B8BCB5C0067F525 /* Pan.png */,
+				B2EC7EC81B8BCB5C0067F525 /* Rotate.png */,
+				B238EDC11BBAB3B200850735 /* Pan_Rotate.png */,
+				B2EA599A1B8E20A400C371DB /* Go_fwd.png */,
+				B2EA599B1B8E20A400C371DB /* Go_back.png */,
+				B2EC7EC91B8BCB5C0067F525 /* Settings.png */,
+				B2EC7E211B8BC7450067F525 /* Info.plist */,
+				B2EC7E221B8BC7450067F525 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EC7E3D1B8BC7450067F525 /* studlessTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EC7E401B8BC7450067F525 /* studlessTests.m */,
+				B2EC7E3E1B8BC7450067F525 /* Supporting Files */,
+			);
+			path = studlessTests;
+			sourceTree = "<group>";
+		};
+		B2EC7E3E1B8BC7450067F525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EC7E3F1B8BC7450067F525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EC7E1C1B8BC7450067F525 /* studless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EC7E441B8BC7450067F525 /* Build configuration list for PBXNativeTarget "studless" */;
+			buildPhases = (
+				B2EC7E191B8BC7450067F525 /* Sources */,
+				B2EC7E1A1B8BC7450067F525 /* Frameworks */,
+				B2EC7E1B1B8BC7450067F525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = studless;
+			productName = studless;
+			productReference = B2EC7E1D1B8BC7450067F525 /* studless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EC7E391B8BC7450067F525 /* studlessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EC7E471B8BC7460067F525 /* Build configuration list for PBXNativeTarget "studlessTests" */;
+			buildPhases = (
+				B2EC7E361B8BC7450067F525 /* Sources */,
+				B2EC7E371B8BC7450067F525 /* Frameworks */,
+				B2EC7E381B8BC7450067F525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EC7E3C1B8BC7450067F525 /* PBXTargetDependency */,
+			);
+			name = studlessTests;
+			productName = studlessTests;
+			productReference = B2EC7E3A1B8BC7450067F525 /* studlessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EC7E151B8BC7450067F525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = lFroen;
+				TargetAttributes = {
+					B2EC7E1C1B8BC7450067F525 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YDFD9NHD7N;
+					};
+					B2EC7E391B8BC7450067F525 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B2EC7E1C1B8BC7450067F525;
+					};
+				};
+			};
+			buildConfigurationList = B2EC7E181B8BC7450067F525 /* Build configuration list for PBXProject "studless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EC7E141B8BC7450067F525;
+			productRefGroup = B2EC7E1E1B8BC7450067F525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EC7E1C1B8BC7450067F525 /* studless */,
+				B2EC7E391B8BC7450067F525 /* studlessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EC7E1B1B8BC7450067F525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EC7ECA1B8BCB5C0067F525 /* Folder.png in Resources */,
+				B2EC7E351B8BC7450067F525 /* LaunchScreen.xib in Resources */,
+				B2EC7E301B8BC7450067F525 /* Main.storyboard in Resources */,
+				B2EC7ED01B8C218A0067F525 /* LDConfig.ldr in Resources */,
+				B248D88A1BE3A86000571BC7 /* Report Card.png in Resources */,
+				B2EC7ECE1B8BCB5C0067F525 /* Settings.png in Resources */,
+				B2EC7ECD1B8BCB5C0067F525 /* Rotate.png in Resources */,
+				B27E1B091B9E2189007C0DD9 /* Simple Truck.ldr in Resources */,
+				B2EC7ECB1B8BCB5C0067F525 /* Original Size.png in Resources */,
+				B2EA599D1B8E20A400C371DB /* Go_back.png in Resources */,
+				B2EC7E321B8BC7450067F525 /* Images.xcassets in Resources */,
+				B238EDC21BBAB3B200850735 /* Pan_Rotate.png in Resources */,
+				B2EA599C1B8E20A400C371DB /* Go_fwd.png in Resources */,
+				B2EC7ECC1B8BCB5C0067F525 /* Pan.png in Resources */,
+				B22CEA1A1BDE9DAE005C7526 /* Triangular Arrow Down-30.png in Resources */,
+				B248D8881BDFBACD00571BC7 /* ldraw.xml in Resources */,
+				B2EC7ED21B8C24D00067F525 /* library.bin in Resources */,
+				B22CEA1B1BDE9DAE005C7526 /* Triangular Arrow Right-30.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EC7E381B8BC7450067F525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EC7E191B8BC7450067F525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EC7E261B8BC7450067F525 /* AppDelegate.m in Sources */,
+				B231940223D76F9D001B987F /* ModelRenderToImage.mm in Sources */,
+				B21EE74E1CCDD1D200E122D8 /* multifile.cpp in Sources */,
+				B22CEA041BDD3282005C7526 /* unzip.c in Sources */,
+				B2EC7E2D1B8BC7450067F525 /* MainViewController.mm in Sources */,
+				B2EC7EC21B8BCAE50067F525 /* ldraw_parts.c in Sources */,
+				B231940323D76FA1001B987F /* ioapi.c in Sources */,
+				B231940023D76E0F001B987F /* LegoModelPartsReport.mm in Sources */,
+				B22CEA031BDD3282005C7526 /* ioapi.h in Sources */,
+				B214BE3A1BC833BD0059BDBA /* ModelRenderToImage.h in Sources */,
+				B2996E091BB7A92B001C6D0C /* legomesh.cpp in Sources */,
+				B214BE3D1BC996290059BDBA /* PartReportViewController.mm in Sources */,
+				B22CEA141BDD4D3B005C7526 /* LdrawXmlParser.mm in Sources */,
+				B2EC7E231B8BC7450067F525 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EC7E361B8BC7450067F525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EC7E411B8BC7450067F525 /* studlessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EC7E3C1B8BC7450067F525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EC7E1C1B8BC7450067F525 /* studless */;
+			targetProxy = B2EC7E3B1B8BC7450067F525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2EC7E2E1B8BC7450067F525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EC7E2F1B8BC7450067F525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EC7E341B8BC7450067F525 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EC7E421B8BC7450067F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2EC7E431B8BC7450067F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EC7E451B8BC7450067F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = studless/studless.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = studless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B2EC7E461B8BC7450067F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = studless/studless.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = studless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B2EC7E481B8BC7460067F525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = studlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/studless.app/studless";
+			};
+			name = Debug;
+		};
+		B2EC7E491B8BC7460067F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = studlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/studless.app/studless";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EC7E181B8BC7450067F525 /* Build configuration list for PBXProject "studless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EC7E421B8BC7450067F525 /* Debug */,
+				B2EC7E431B8BC7450067F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EC7E441B8BC7450067F525 /* Build configuration list for PBXNativeTarget "studless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EC7E451B8BC7450067F525 /* Debug */,
+				B2EC7E461B8BC7450067F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EC7E471B8BC7460067F525 /* Build configuration list for PBXNativeTarget "studlessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EC7E481B8BC7460067F525 /* Debug */,
+				B2EC7E491B8BC7460067F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EC7E151B8BC7450067F525 /* Project object */;
+}
