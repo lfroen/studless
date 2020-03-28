@@ -12,7 +12,6 @@
 		B21EE74E1CCDD1D200E122D8 /* multifile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21EE74C1CCDD1D200E122D8 /* multifile.cpp */; };
 		B22CEA031BDD3282005C7526 /* ioapi.h in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA001BDD3282005C7526 /* ioapi.h */; };
 		B22CEA041BDD3282005C7526 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA021BDD3282005C7526 /* unzip.c */; };
-		B22CEA141BDD4D3B005C7526 /* LdrawXmlParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */; };
 		B22CEA161BDD4E02005C7526 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B22CEA151BDD4E02005C7526 /* libz.tbd */; };
 		B22CEA1A1BDE9DAE005C7526 /* Triangular Arrow Down-30.png in Resources */ = {isa = PBXBuildFile; fileRef = B22CEA181BDE9DAE005C7526 /* Triangular Arrow Down-30.png */; };
 		B22CEA1B1BDE9DAE005C7526 /* Triangular Arrow Right-30.png in Resources */ = {isa = PBXBuildFile; fileRef = B22CEA191BDE9DAE005C7526 /* Triangular Arrow Right-30.png */; };
@@ -25,6 +24,7 @@
 		B27E1B091B9E2189007C0DD9 /* Simple Truck.ldr in Resources */ = {isa = PBXBuildFile; fileRef = B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */; };
 		B2996DFD1BB69531001C6D0C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2996DFC1BB69531001C6D0C /* GLKit.framework */; };
 		B2996E091BB7A92B001C6D0C /* legomesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2996E061BB7A92B001C6D0C /* legomesh.cpp */; };
+		B2D8F5A2242DE7D900C7D374 /* LdrawXmlParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2D8F5A1242DE7D900C7D374 /* LdrawXmlParser.mm */; };
 		B2EA599C1B8E20A400C371DB /* Go_fwd.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EA599A1B8E20A400C371DB /* Go_fwd.png */; };
 		B2EA599D1B8E20A400C371DB /* Go_back.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EA599B1B8E20A400C371DB /* Go_back.png */; };
 		B2EC7E231B8BC7450067F525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E221B8BC7450067F525 /* main.m */; };
@@ -67,8 +67,6 @@
 		B22CEA001BDD3282005C7526 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = ../studless/common/minizip/ioapi.h; sourceTree = "<group>"; };
 		B22CEA011BDD3282005C7526 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../studless/common/minizip/unzip.h; sourceTree = "<group>"; };
 		B22CEA021BDD3282005C7526 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = ../studless/common/minizip/unzip.c; sourceTree = "<group>"; };
-		B22CEA121BDD4D3B005C7526 /* LdrawXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdrawXmlParser.h; sourceTree = "<group>"; };
-		B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LdrawXmlParser.mm; sourceTree = "<group>"; };
 		B22CEA151BDD4E02005C7526 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B22CEA181BDE9DAE005C7526 /* Triangular Arrow Down-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Triangular Arrow Down-30.png"; path = "Icons/Triangular Arrow Down-30.png"; sourceTree = "<group>"; };
 		B22CEA191BDE9DAE005C7526 /* Triangular Arrow Right-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Triangular Arrow Right-30.png"; path = "Icons/Triangular Arrow Right-30.png"; sourceTree = "<group>"; };
@@ -81,8 +79,10 @@
 		B2996DFC1BB69531001C6D0C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B2996E061BB7A92B001C6D0C /* legomesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = legomesh.cpp; path = ../studless/common/legomesh.cpp; sourceTree = "<group>"; };
 		B2996E071BB7A92B001C6D0C /* legomesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = legomesh.h; path = ../studless/common/legomesh.h; sourceTree = "<group>"; };
-		B2996E0A1BB7AB51001C6D0C /* vec_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec_math.h; sourceTree = "<group>"; };
 		B2996E0B1BB7AF07001C6D0C /* ldrawcolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ldrawcolor.h; path = ../studless/common/ldrawcolor.h; sourceTree = "<group>"; };
+		B2D8F59F242DE7D900C7D374 /* vec_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vec_math.h; path = common/vec_math.h; sourceTree = SOURCE_ROOT; };
+		B2D8F5A0242DE7D900C7D374 /* LdrawXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LdrawXmlParser.h; path = common/LdrawXmlParser.h; sourceTree = SOURCE_ROOT; };
+		B2D8F5A1242DE7D900C7D374 /* LdrawXmlParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LdrawXmlParser.mm; path = common/LdrawXmlParser.mm; sourceTree = SOURCE_ROOT; };
 		B2EA599A1B8E20A400C371DB /* Go_fwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Go_fwd.png; path = Icons/Go_fwd.png; sourceTree = "<group>"; };
 		B2EA599B1B8E20A400C371DB /* Go_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Go_back.png; path = Icons/Go_back.png; sourceTree = "<group>"; };
 		B2EC7E1D1B8BC7450067F525 /* studless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studless.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +90,6 @@
 		B2EC7E221B8BC7450067F525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2EC7E241B8BC7450067F525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2EC7E251B8BC7450067F525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2EC7E2B1B8BC7450067F525 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
 		B2EC7E2F1B8BC7450067F525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2EC7E311B8BC7450067F525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -105,7 +104,7 @@
 		B2EC7EC71B8BCB5C0067F525 /* Pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pan.png; path = Icons/Pan.png; sourceTree = "<group>"; };
 		B2EC7EC81B8BCB5C0067F525 /* Rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rotate.png; path = Icons/Rotate.png; sourceTree = "<group>"; };
 		B2EC7EC91B8BCB5C0067F525 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Icons/Settings.png; sourceTree = "<group>"; };
-		B2EC7ECF1B8C218A0067F525 /* LDConfig.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LDConfig.ldr; path = ../../ldraw/LDConfig.ldr; sourceTree = "<group>"; };
+		B2EC7ECF1B8C218A0067F525 /* LDConfig.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LDConfig.ldr; path = ../ldraw/LDConfig.ldr; sourceTree = "<group>"; };
 		B2EC7ED11B8C24D00067F525 /* library.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = library.bin; path = ../library.bin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +142,9 @@
 		B2996E031BB7A92B001C6D0C /* common */ = {
 			isa = PBXGroup;
 			children = (
+				B2D8F5A0242DE7D900C7D374 /* LdrawXmlParser.h */,
+				B2D8F5A1242DE7D900C7D374 /* LdrawXmlParser.mm */,
+				B2D8F59F242DE7D900C7D374 /* vec_math.h */,
 				B22CEA111BDD4D12005C7526 /* minizip */,
 				B214BE371BC833BD0059BDBA /* LegoModelPartsReport.h */,
 				B23193FF23D76E0F001B987F /* LegoModelPartsReport.mm */,
@@ -152,11 +154,6 @@
 				B2996E071BB7A92B001C6D0C /* legomesh.h */,
 				B21EE74C1CCDD1D200E122D8 /* multifile.cpp */,
 				B21EE74D1CCDD1D200E122D8 /* multifile.h */,
-				B2996E0A1BB7AB51001C6D0C /* vec_math.h */,
-				B2EC7E2B1B8BC7450067F525 /* MainViewController.h */,
-				B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */,
-				B22CEA121BDD4D3B005C7526 /* LdrawXmlParser.h */,
-				B22CEA131BDD4D3B005C7526 /* LdrawXmlParser.mm */,
 			);
 			name = common;
 			path = ../common;
@@ -204,6 +201,7 @@
 				B2EC7EBC1B8BCA160067F525 /* GlErrors.h */,
 				B214BE3B1BC996290059BDBA /* PartReportViewController.h */,
 				B214BE3C1BC996290059BDBA /* PartReportViewController.mm */,
+				B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */,
 				B2EC7E2E1B8BC7450067F525 /* Main.storyboard */,
 				B2EC7E311B8BC7450067F525 /* Images.xcassets */,
 				B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */,
@@ -380,8 +378,8 @@
 				B22CEA031BDD3282005C7526 /* ioapi.h in Sources */,
 				B214BE3A1BC833BD0059BDBA /* ModelRenderToImage.h in Sources */,
 				B2996E091BB7A92B001C6D0C /* legomesh.cpp in Sources */,
+				B2D8F5A2242DE7D900C7D374 /* LdrawXmlParser.mm in Sources */,
 				B214BE3D1BC996290059BDBA /* PartReportViewController.mm in Sources */,
-				B22CEA141BDD4D3B005C7526 /* LdrawXmlParser.mm in Sources */,
 				B2EC7E231B8BC7450067F525 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
