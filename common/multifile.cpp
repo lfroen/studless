@@ -108,6 +108,7 @@ char *MultiFile::lookupByName(const char *filename)
     if ( strcmp(filename, file_name_from_entry) == 0 ) {
         return (char *)m_map + file_entry->data_ptr;
     }
+    printf("ERROR: lu name [%s] doesn't name in entry %d  [%s]\n", filename, hash_idx, file_name_from_entry);
     return 0;
 }
 

@@ -5,9 +5,11 @@
 //  Created by Leonid on 8/3/15.
 //  Copyright (c) 2015 lFroen. All rights reserved.
 //
+#define GLES_SILENCE_DEPRECATION 1
 
 #import "MainViewController.h"
 #import <OpenGLES/ES2/glext.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 #import "app_bridge.h"
 
@@ -15,7 +17,7 @@
 #import "PartReportViewController.h"
 
 
-@interface CustomGLKViewController () {
+@interface CustomGLKViewController ()<UIDocumentPickerDelegate,UIDocumentMenuDelegate> {
     ModelRenderToImage *mImageRender;
 }
 @end
@@ -145,6 +147,24 @@
     }
 }
 
+- (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentsAtURLs:(NSArray<NSURL *> *)urls
+{
+    NSURL *url = [urls firstObject];
+    [self loadModel:[url path]];
+}
+
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController *)controller {    
+}
+
+-(void)openModelFile
+{
+    UIDocumentPickerViewController *viewController = [[UIDocumentPickerViewController alloc]
+                                                      initWithDocumentTypes:@[@"public.ldr", @"public.lxf", @"public.mpd"]
+                                                      inMode:(UIDocumentPickerModeImport)];
+    viewController.delegate = self;
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
 - (void)togglePanRotateMode
 {
     switch (m_dragMode) {
@@ -209,7 +229,10 @@
 //            [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Rotate.png"]
 //                                           style:UIBarButtonItemStylePlain
 //                                          target:self action:@selector(setDragModeRotate)],
-            [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Pan_Rotate.png"]
+            [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Folder.png"]
+                                    style:UIBarButtonItemStylePlain target:self action:@selector(openModelFile)],
+
+                              [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Pan_Rotate.png"]
                                     style:UIBarButtonItemStylePlain target:self action:@selector(togglePanRotateMode)],
 
             [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace

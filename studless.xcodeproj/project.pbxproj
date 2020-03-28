@@ -10,6 +10,7 @@
 		B214BE3A1BC833BD0059BDBA /* ModelRenderToImage.h in Sources */ = {isa = PBXBuildFile; fileRef = B214BE361BC833BD0059BDBA /* ModelRenderToImage.h */; };
 		B214BE3D1BC996290059BDBA /* PartReportViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B214BE3C1BC996290059BDBA /* PartReportViewController.mm */; };
 		B21EE74E1CCDD1D200E122D8 /* multifile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21EE74C1CCDD1D200E122D8 /* multifile.cpp */; };
+		B22AD9E3242F98E800034159 /* ldraw_parts.c in Sources */ = {isa = PBXBuildFile; fileRef = B22AD9E2242F98E800034159 /* ldraw_parts.c */; };
 		B22CEA031BDD3282005C7526 /* ioapi.h in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA001BDD3282005C7526 /* ioapi.h */; };
 		B22CEA041BDD3282005C7526 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B22CEA021BDD3282005C7526 /* unzip.c */; };
 		B22CEA161BDD4E02005C7526 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B22CEA151BDD4E02005C7526 /* libz.tbd */; };
@@ -34,7 +35,6 @@
 		B2EC7E321B8BC7450067F525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7E311B8BC7450067F525 /* Images.xcassets */; };
 		B2EC7E351B8BC7450067F525 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */; };
 		B2EC7E411B8BC7450067F525 /* studlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7E401B8BC7450067F525 /* studlessTests.m */; };
-		B2EC7EC21B8BCAE50067F525 /* ldraw_parts.c in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */; };
 		B2EC7ECA1B8BCB5C0067F525 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC51B8BCB5C0067F525 /* Folder.png */; };
 		B2EC7ECB1B8BCB5C0067F525 /* Original Size.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC61B8BCB5C0067F525 /* Original Size.png */; };
 		B2EC7ECC1B8BCB5C0067F525 /* Pan.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EC7EC71B8BCB5C0067F525 /* Pan.png */; };
@@ -63,6 +63,8 @@
 		B214BE3C1BC996290059BDBA /* PartReportViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PartReportViewController.mm; sourceTree = "<group>"; };
 		B21EE74C1CCDD1D200E122D8 /* multifile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = multifile.cpp; path = ../studless/common/multifile.cpp; sourceTree = "<group>"; };
 		B21EE74D1CCDD1D200E122D8 /* multifile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multifile.h; path = ../studless/common/multifile.h; sourceTree = "<group>"; };
+		B22AD9E1242F8C3C00034159 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B22AD9E2242F98E800034159 /* ldraw_parts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldraw_parts.c; sourceTree = SOURCE_ROOT; };
 		B22CE9FF1BDD3282005C7526 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = ../studless/common/minizip/ioapi.c; sourceTree = "<group>"; };
 		B22CEA001BDD3282005C7526 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = ../studless/common/minizip/ioapi.h; sourceTree = "<group>"; };
 		B22CEA011BDD3282005C7526 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../studless/common/minizip/unzip.h; sourceTree = "<group>"; };
@@ -75,7 +77,7 @@
 		B238EDC11BBAB3B200850735 /* Pan_Rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pan_Rotate.png; path = Icons/Pan_Rotate.png; sourceTree = "<group>"; };
 		B248D8871BDFBACD00571BC7 /* ldraw.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ldraw.xml; path = ../ldraw.xml; sourceTree = "<group>"; };
 		B248D8891BE3A86000571BC7 /* Report Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Report Card.png"; path = "Icons/Report Card.png"; sourceTree = "<group>"; };
-		B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Simple Truck.ldr"; path = "../../Simple Truck.ldr"; sourceTree = "<group>"; };
+		B27E1B081B9E2189007C0DD9 /* Simple Truck.ldr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Simple Truck.ldr"; path = "../Simple Truck.ldr"; sourceTree = "<group>"; };
 		B2996DFC1BB69531001C6D0C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B2996E061BB7A92B001C6D0C /* legomesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = legomesh.cpp; path = ../studless/common/legomesh.cpp; sourceTree = "<group>"; };
 		B2996E071BB7A92B001C6D0C /* legomesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = legomesh.h; path = ../studless/common/legomesh.h; sourceTree = "<group>"; };
@@ -98,7 +100,6 @@
 		B2EC7E3F1B8BC7450067F525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2EC7E401B8BC7450067F525 /* studlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studlessTests.m; sourceTree = "<group>"; };
 		B2EC7EBC1B8BCA160067F525 /* GlErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlErrors.h; sourceTree = "<group>"; };
-		B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldraw_parts.c; path = ../studless/studless/ldraw_parts.c; sourceTree = "<group>"; };
 		B2EC7EC51B8BCB5C0067F525 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Folder.png; path = Icons/Folder.png; sourceTree = "<group>"; };
 		B2EC7EC61B8BCB5C0067F525 /* Original Size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Original Size.png"; path = "Icons/Original Size.png"; sourceTree = "<group>"; };
 		B2EC7EC71B8BCB5C0067F525 /* Pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pan.png; path = Icons/Pan.png; sourceTree = "<group>"; };
@@ -162,7 +163,7 @@
 		B2996E0C1BB80FA7001C6D0C /* generated */ = {
 			isa = PBXGroup;
 			children = (
-				B2EC7EC11B8BCAE50067F525 /* ldraw_parts.c */,
+				B22AD9E2242F98E800034159 /* ldraw_parts.c */,
 				B2996E0B1BB7AF07001C6D0C /* ldrawcolor.h */,
 			);
 			name = generated;
@@ -202,6 +203,7 @@
 				B214BE3B1BC996290059BDBA /* PartReportViewController.h */,
 				B214BE3C1BC996290059BDBA /* PartReportViewController.mm */,
 				B2EC7E2C1B8BC7450067F525 /* MainViewController.mm */,
+				B22AD9E1242F8C3C00034159 /* MainViewController.h */,
 				B2EC7E2E1B8BC7450067F525 /* Main.storyboard */,
 				B2EC7E311B8BC7450067F525 /* Images.xcassets */,
 				B2EC7E331B8BC7450067F525 /* LaunchScreen.xib */,
@@ -370,9 +372,9 @@
 				B2EC7E261B8BC7450067F525 /* AppDelegate.m in Sources */,
 				B231940223D76F9D001B987F /* ModelRenderToImage.mm in Sources */,
 				B21EE74E1CCDD1D200E122D8 /* multifile.cpp in Sources */,
+				B22AD9E3242F98E800034159 /* ldraw_parts.c in Sources */,
 				B22CEA041BDD3282005C7526 /* unzip.c in Sources */,
 				B2EC7E2D1B8BC7450067F525 /* MainViewController.mm in Sources */,
-				B2EC7EC21B8BCAE50067F525 /* ldraw_parts.c in Sources */,
 				B231940323D76FA1001B987F /* ioapi.c in Sources */,
 				B231940023D76E0F001B987F /* LegoModelPartsReport.mm in Sources */,
 				B22CEA031BDD3282005C7526 /* ioapi.h in Sources */,
@@ -535,7 +537,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = studless/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,7 +553,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = studless/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lfroen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
