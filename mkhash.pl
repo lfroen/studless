@@ -7,7 +7,7 @@ use Getopt::Long;
 
 my $ldraw = undef;
 my $libname = 'library.bin';
-my $mph = "/Users/lfroen/prog/mylego/mph-1.2";
+my $mph = "/Users/lfroen/Documents/proj/mylego/studless/mph-1.2";
 my $nodata = 0;
 my $nohash = 0;
 my $printfiles = 0;
@@ -30,6 +30,9 @@ printf "Generate hash: %s, read data: %s, print files info: %s, limit file numbe
     $printfiles ? 'YES' : 'NO',
     $maxfiles == 0x7fffffff ? 'NO' : $maxfiles;
 
+die "ERROR: mph executable not found in ${mph}/mph" if ( ! (-f "${mph}/mph") );
+die "ERROR: mph executable not found" if ( not (-e "${mph}/emitc") );
+
 my %info;
 my $files = make_part_list($ldraw, \%info, $nodata, $maxfiles);
 
@@ -39,6 +42,7 @@ if ( $nohash == 0 ) {
 
 #my @name_in_order;
 #map_name_to_hash(\@name_in_order);
+
 
 wr_library($libname, \%info, $files, $printfiles, $nodata);
 
